@@ -59,9 +59,11 @@ GPA-Tracking-System/
 
 ### Option 1: Docker Compose (Recommended)
 
+> **Requires Docker Compose V2** (bundled with Docker Desktop 3.6+ or install the Docker Compose plugin). Use `docker compose` (with a space), not the legacy `docker-compose` command.
+
 ```bash
 # Start all services (PostgreSQL + Backend + Frontend)
-docker-compose up --build
+docker compose up --build
 
 # Backend:  http://localhost:8000
 # Frontend: http://localhost:3000
