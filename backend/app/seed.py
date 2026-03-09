@@ -37,7 +37,7 @@ COURSES = [
 GRADE_LETTERS = list(GRADE_MAP.keys())
 
 # Weighted grade choices so that we get a mix of good, medium, and some NA
-GRADE_WEIGHTS = [2, 5, 8, 10, 8, 8, 5, 5, 3, 1, 1]  # matches GRADE_LETTERS order
+GRADE_WEIGHTS = [2, 5, 8, 10, 8, 8, 5, 5, 3, 1]  # matches GRADE_LETTERS order
 
 
 def generate_assessment_dates(start: date, count: int, interval_days: int = 14):
