@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+.card {
+  @apply bg-white rounded-xl shadow-sm border border-gray-100 p-6;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium;
+}
+
+.btn-secondary {
+  @apply bg-gray-100 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors font-medium;
+}
+
+.badge-risk {
+  @apply bg-red-100 text-red-700 px-2 py-1 rounded-full text-xs font-semibold;
+}
+
+.badge-safe {
+  @apply bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs font-semibold;
+}
